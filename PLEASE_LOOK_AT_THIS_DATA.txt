@@ -1,0 +1,29 @@
+There is no easy way of saying it and so here it is.
+
+Instead of uploading the tidy data, I uploaded the averages data.
+
+Considering the effort and (I admit!) fun involved in doing this, I am very annoyed with myself for doing this. I will leave it to the peers to do the 'right thing' here.
+
+This is how my tidy data looks like:
+
+nsubrahm@ubuntu-vm:~/data$ head -10 tidydata.txt
+"subjectId" "featureName" "featureValue" "activityLabel"
+18 "tBodyAccJerk.entropy.X" 0.6987987 "WALKING"
+9 "tBodyAcc.min.Z" 0.16261417 "WALKING"
+2 "tBodyGyro.arCoeff.Y_4" 0.23984334 "WALKING"
+13 "fBodyAcc.bandsEnergy.1_8" -0.81651406 "WALKING"
+24 "fBodyAccJerk.min.X" -0.7330406 "WALKING"
+2 "tGravityAcc.arCoeff.Y_1" 0.35468434 "WALKING"
+2 "tGravityAcc.arCoeff.Y_2" -0.34609972 "WALKING"
+9 "tBodyAccMag.max" -0.20583055 "WALKING"
+2 "fBodyGyro.max.Y" -0.68399448 "WALKING"
+
+
+The complete file (in a zip file) is available here:
+https://drive.google.com/file/d/0B9a-2_JEguMDbjVpUDRWNERpcVU/view?usp=sharing
+The SHA sum is :
+
+nsubrahm@ubuntu-vm:~/data$ shasum tidydata.txt.zip 
+590872406afd52fbdf80ae203a1a3715fec2c288  tidydata.txt.zip
+
+Let me know, if there is a problem accessing this file.
